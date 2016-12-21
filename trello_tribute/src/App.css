@@ -7,18 +7,41 @@
   height: 80px;
 }
 
+/* Header Styling */
+
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #882D60;
+  height: 80px;
   padding: 20px;
-  color: white;
+  color: black;
+}
+
+/* Description */
+
+.title{
+  color: black;
+  text-align: center;
+  float: left;
 }
 
 .App-intro {
   font-size: large;
+  float: left;
+  text-align: left;
+}
+
+.App-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #882D60;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  to { transform: rotateY(360deg);}/*rotate(300deg); }*/
+
 }

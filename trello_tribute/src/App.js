@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Mlg_Doge from '../images/Mlg_Doge.png';
 import './App.css';
 
 class App extends Component {
@@ -7,10 +7,18 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={Mlg_Doge} className="App-logo" alt="logo" />
+          <div className="logbuttons">
+            <a href= "login">Log In </a>
+            <a className="register" href= "login">Register</a>
+          </div>
 
         </div>
-        <h2 className ="title">Trello Tribute</h2>
+        <div>
+        <img src={Mlg_Doge} className="logostyle"></img>
+        <h2 className="title">Trello Tribute</h2>
+
+        </div>
         <div>
         <p className="App-intro">
           This is a project similiar to trello.
@@ -24,7 +32,13 @@ class App extends Component {
         </p>
         </div>
         <div className="App-footer">
-          heyhey
+          <div>
+            <ul className="footerelement">
+              <li><a  href= "Team">Meet the team</a></li>
+              <li><a  href= "Stack">App Stack</a></li>
+            </ul>
+            <p> © Clopyright 2016, Trello_Tribute, boom shakalaka. </p>
+          </div>
         </div>
       </div>
 

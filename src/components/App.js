@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import Mlg_Doge from '../images/Mlg_Doge.png';
 import './App.css';
+import Header from 'Header.js';
+import Footer from 'Footer.js';
 
 class App extends Component {
   render() {
     return (
+      //header
       <div className="App">
         <div className="App-header">
           <img src={Mlg_Doge} className="App-logo" alt="logo" />

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Router, Route, IndexRoute } from 'react-router';
-import Index from './index.js';
-import ContactDetail from './components/ContactDetail';
+import { Component } from 'react';
+import { Router, Route, browserHistory } from 'react-router';
 
-import App from './src/components/App.js';
+import App from './components/App';
+//import Lock from './components/Lock';
 
 class Root extends Component {
 
@@ -12,10 +12,8 @@ class Root extends Component {
   // doing so from a Root component
   render() {
     return (
-      <Router history={this.props.history}>
+      <Router history={ browserHistory }>  
         <Route path='/' component={App}>
-          <IndexRoute component={Index}/>
-          <Route path='/contact/:id' component={ContactDetail} />
         </Route>
       </Router>
     );

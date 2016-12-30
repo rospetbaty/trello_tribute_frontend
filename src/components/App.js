@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from 'Header.js';
-import Footer from 'Footer.js';
+import Header from './Header';
+import Footer from './Footer';
 import Mlg_Doge from '../images/Mlg_Doge.png';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
             <a className="logbuttons" href= "login">Log In </a>
             <a className="regbuttons" href= "login">Register</a>
           </div>*/
-        <div>
+        <div className="App">
           <Header />
 
 

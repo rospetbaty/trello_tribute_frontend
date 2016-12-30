@@ -2,25 +2,29 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from 'Header.js';
 import Footer from 'Footer.js';
+import Mlg_Doge from '../images/Mlg_Doge.png';
 
 class App extends Component {
   render() {
     return (
       //header
-      <div className="App">
+    /*  <div className="App">
         <div className="App-header">
           <img src={Mlg_Doge} className="App-logo" alt="logo" />
           <div>
             <a className="logbuttons" href= "login">Log In </a>
             <a className="regbuttons" href= "login">Register</a>
-          </div>
+          </div>*/
+        <div>
+          <Header />
 
-        </div>
+
+
         <div>
         <img src={Mlg_Doge} className="logostyle"></img>
         <h2 className="title">Trello Tribute</h2>
-
         </div>
+
         <div>
         <p className="App-intro">
           This is a project similiar to trello.

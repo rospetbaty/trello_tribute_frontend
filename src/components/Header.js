@@ -38,6 +38,10 @@ class Header extends Component {
             <a className="logbuttons" onClick={this.login}>Log In </a>
             <a className="regbuttons" href= "login">Register</a>
           </div>
-
+        </div>
+      </div>
+    );
+  }
+}
 
 export default Header

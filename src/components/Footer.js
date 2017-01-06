@@ -13,6 +13,10 @@ class Footer extends Component {
           <p> © Clopyright 2016, Trello_Tribute, boom shakalaka. </p>
         </div>
       </div>
-    )}}
+
+    );
+  }
+}
+
 
 export default Footer

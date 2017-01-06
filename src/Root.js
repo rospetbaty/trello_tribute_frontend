@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import { Router, Route, IndexRoute } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import Index from './index';
 import Login from './Login';
 
@@ -14,10 +14,12 @@ class Root extends Component {
   // doing so from a Root component
   render() {
     return (
-      <Router history={this.props.history}>
+      <Router history={ browserHistory }>
         <Route path='/' component={App}>
-          <IndexRoute component={Index}/>
+
+          //<IndexRoute component={Index}/>
           <Route path='/contact/' component={Login} />
+
         </Route>
       </Router>
     );

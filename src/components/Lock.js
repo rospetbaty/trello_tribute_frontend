@@ -1,5 +1,5 @@
-import 'normalize.css/normalize.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'normalize.css/normalize.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { Component } from 'react';
 import Header from './Header';

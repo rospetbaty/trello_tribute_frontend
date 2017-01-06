@@ -6,6 +6,6 @@ import { browserHistory } from 'react-router';
 import Root from './Root.js'
 
 ReactDOM.render(
-  <App />,
+  <Root />,
   document.getElementById('root')
 );

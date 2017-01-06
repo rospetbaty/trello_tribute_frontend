@@ -4,34 +4,35 @@ import './App.css';
 
 class Header extends Component {
 
-  constructor() {
-    super();
-    this.state = {
-      authenticated: false
-    }
-    this.login = this.login.bind(this);
-    this.logout = this.logout.bind(this);
-  }
-
-  login() {
-
-    this.props.lock.show((err, profile, token) => {
-      if (err) {
-        alert(err);
-        return;
-      }
-      this.setState({authenticated: true});
-    });
-  }
-
-  logout() {
-    // AuthActions.logUserOut();
-    this.setState({authenticated: false});
-  }
+//  constructor() {
+//    super();
+//    this.state = {
+//      authenticated: false
+//    }
+//    this.login = this.login.bind(this);
+//    this.logout = this.logout.bind(this);
+//  }
+//
+//  login() {
+//
+//    this.props.lock.show((err, profile, token) => {
+//      if (err) {
+//        alert(err);
+//        return;
+//      }
+//      this.setState({authenticated: true});
+//    });
+//  }
+//
+//  logout() {
+//    // AuthActions.logUserOut();
+//    this.setState({authenticated: false});
+//  }
 
   render() {
     return (
       <div className="App">
+
         <div className="App-header">
           <img src={Mlg_Doge} className="App-logo" alt="logo" />
           <div>
@@ -39,6 +40,15 @@ class Header extends Component {
             <a className="regbuttons" href= "login">Register</a>
           </div>
         </div>
+
+      //  <div className="App-header">
+      //    <img src={Mlg_Doge} className="App-logo" alt="logo" />
+      //    <div>
+      //      <a className="logbuttons" onClick={this.login}>Log In </a>
+      //      <a className="regbuttons" href= "login">Register</a>
+      //    </div>
+      //  </div>
+
       </div>
     );
   }

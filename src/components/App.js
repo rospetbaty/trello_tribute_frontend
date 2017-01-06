@@ -15,7 +15,7 @@ class App extends Component {
             <a className="logbuttons" href= "login">Log In </a>
             <a className="regbuttons" href= "login">Register</a>
           </div>*/
-        <div>
+        <div className="App">
           <Header />
 
 

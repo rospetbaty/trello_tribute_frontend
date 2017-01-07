@@ -7,14 +7,7 @@ import Mlg_Doge from '../images/Mlg_Doge.png';
 class App extends Component {
   render() {
     return (
-      //header
-    /*  <div className="App">
-        <div className="App-header">
-          <img src={Mlg_Doge} className="App-logo" alt="logo" />
-          <div>
-            <a className="logbuttons" href= "login">Log In </a>
-            <a className="regbuttons" href= "login">Register</a>
-          </div>*/
+      
         <div className="App">
           <Header />
 

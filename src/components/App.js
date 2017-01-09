@@ -7,7 +7,7 @@ import Mlg_Doge from '../images/Mlg_Doge.png';
 class App extends Component {
   render() {
     return (
-      
+
         <div className="App">
           <Header />
 
@@ -32,14 +32,10 @@ class App extends Component {
         </div>
         <div className="App-footer">
           <div>
-            <ul className="footerelement">
-              <li><a  href= "Team">Meet the team</a></li>
-              <li><a  href= "Stack">App Stack</a></li>
-            </ul>
-            <p> © Clopyright 2016, Trello_Tribute, boom shakalaka. </p>
+              <Footer />
           </div>
-        </div>
-      </div>
+          </div>
+          </div>
 
     );
   }

@@ -15,10 +15,10 @@ class Root extends Component {
   render() {
     return (
       <Router history={ browserHistory }>
+        <Route path='/contact/' component={Login} />
         <Route path='/' component={App}>
 
           //<IndexRoute component={Index}/>
-          <Route path='/contact/' component={Login} />
 
         </Route>
       </Router>

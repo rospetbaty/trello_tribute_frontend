@@ -36,8 +36,8 @@ class Header extends Component {
         <div className="App-header">
           <img src={Mlg_Doge} className="App-logo" alt="logo" />
           <div>
-            <a className="logbuttons" onClick={this.login}>Log In </a>
-            <a className="regbuttons" href= "login">Register</a>
+            <a className="logbuttons" href= "http://localhost:3000/contact/">Log In </a>
+            <a className="regbuttons" href= "http://localhost:3000/contact/">Register</a>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../stylesheets/App.scss';
 import Header from './Header';
 import Footer from './Footer';
 import Mlg_Doge from '../images/Mlg_Doge.png';

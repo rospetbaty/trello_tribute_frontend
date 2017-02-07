@@ -20,32 +20,16 @@
 .logbuttons{
   float: right;
   background-color: #e2e4e6;
-border-radius: .4em;
-box-shadow: 0 2px 0 #cdd2d4;
-color: #4d4d4d;
-display: inline-block;
-font-size: .8em;
-line-height: 1.1em;
-margin: 0 .25em;
-padding: .7em 1.3em;
-text-decoration: none;
-vertical-align: top;
+  box-shadow: 0 2px 0 #cdd2d4;
+  color: #4d4d4d;
+  @include default-button;
 }
 
 .regbuttons{
   float: right;
   background-color: #5aac44;
-border-radius: .4em;
-box-shadow: 0 2px 0 #3f6f21;
-font-weight: bold;
-color: #4d4d4d;
-display: inline-block;
-font-size: .8em;
-line-height: 1.1em;
-margin: 0 .25em;
-padding: .7em 1.3em;
-text-decoration: none;
-vertical-align: top;
+  box-shadow: 0 2px 0 #3f6f21;
+  @include default-button;
 }
 
 
@@ -92,4 +76,17 @@ a:link {color: black;}
   from { transform: rotate(0deg); }
   to { transform: rotateY(360deg);}/*rotate(300deg); }*/
 
+}
+
+@mixin default-button {
+  font-weight: bold;
+  color: #4d4d4d;
+  display: inline-block;
+  border-radius: .4em;
+  font-size: .8em;
+  line-height: 1.1em;
+  margin: 0 .25em;
+  padding: .7em 1.3em;
+  text-decoration: none;
+  vertical-align: top;
 }

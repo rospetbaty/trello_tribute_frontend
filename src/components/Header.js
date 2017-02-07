@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Mlg_Doge from '../images/Mlg_Doge.png';
-import './App.css';
+import '../stylesheets/App.scss';
 
 class Header extends Component {
 

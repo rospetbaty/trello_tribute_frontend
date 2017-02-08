@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  float:left;
+}
+
+/* Header Styling */
+
+.App-header {
+  background-color: #882D60;
+  height: 80px;
+  padding: 20px;
+  color: black;
+}
+
+.logbuttons{
+  float: right;
+  background-color: #e2e4e6;
+  box-shadow: 0 2px 0 #cdd2d4;
+  color: #4d4d4d;
+  @include default-button;
+}
+
+.regbuttons{
+  float: right;
+  background-color: #5aac44;
+  box-shadow: 0 2px 0 #3f6f21;
+  @include default-button;
+}
+
+
+/* Description */
+
+.logostyle{
+  height: 150px;
+  width: 150px;
+}
+
+.App-intro{
+  font-size: 20px;
+}
+
+.title{
+  height: 80px;
+  margin-bottom: 2em;
+  color: magenta;
+}
+
+.layout-centered {
+  padding: 3em 1em;
+  word-break: break-word;
+}
+
+.App-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #882D60;
+  text-align: center;
+}
+
+.footerelement{
+  list-style: none;
+  font-size: 18px;
+}
+
+a:link {color: black;}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotateY(360deg);}/*rotate(300deg); }*/
+
+}
+
+@mixin default-button {
+  font-weight: bold;
+  color: #4d4d4d;
+  display: inline-block;
+  border-radius: .4em;
+  font-size: .8em;
+  line-height: 1.1em;
+  margin: 0 .25em;
+  padding: .7em 1.3em;
+  text-decoration: none;
+  vertical-align: top;
+}
